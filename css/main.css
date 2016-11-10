@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0;
+	background-color: #FFE245;
+}
+
+#container
+{
+	
+	width: 50%;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+
+h1, h2, h3
+{
+	font-family: arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-align: center;
+}
+
+p, a
+{
+	font-family: arial, sans-serif;
+}
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	width: 55px;
+	display: inline-block;
+	background-color: #376BCC;
+	color: #FFFFFF;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin-left: 20px;
+	opacity: 0.9;
+	margin-bottom: 5px;
+}
+
+a:last
+{
+	margin-bottom: 0;
+}
+
+a:hover
+{
+	background-color: #0045AA;
+}
+
+/*header*/
+header,#searchform, #content, footer
+{
+	overflow:auto;
+	padding: 10px 20px;
+	background-color: #84ACE7;
+	margin-bottom: 10px;
+}
+
+header img
+{
+	margin-bottom: 10px;
+	float: left;
+}
+
+#title
+{
+	
+	position: relative;
+ 	clear: both;
+  	text-align: left
+}
+
+nav ul
+{
+	float: right;
+}
+
+nav ul li
+{
+	display: inline;
+}
+
+/*search*/
+
+#searchform
+{
+	clear: both;
+	text-align: center;
+}
+
+#search
+{
+	width: 50%;
+}
+
+/*content*/
+#content ul
+{
+	padding-left: 0;
+}
+
+#content ul li 
+{
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-left: 10%;
+	padding: 10px;
+	background-color: #96C8FF;
+}
+
+#content ul li a
+{
+	margin-left: 10px;
+}
+
+
+#content ul li img
+{
+	float: left;
+}
+
+#employee
+{
+	margin: 0 auto;
+	padding: 10px 20px;
+	width: 75%;
+	overflow:auto;
+	background-color: #96C8FF;
+}
+
+#employee img
+{
+	float: left;
+}
